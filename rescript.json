@@ -1,0 +1,17 @@
+{
+  "name": "next-rescript",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".mjs",
+  "jsx": {
+    "version": 4
+  },
+  "bs-dependencies": ["@rescript/core", "@rescript/react"],
+  "bsc-flags": ["-open Belt", "-open RescriptCore"]
+}
